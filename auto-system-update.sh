@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Schedule using crontab for daily automation
+
 if sudo apt-get update; then
     echo ""
     echo -e "\e[1;32mSystem upgraded succesfully.\e[0m"
